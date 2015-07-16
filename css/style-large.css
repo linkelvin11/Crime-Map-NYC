@@ -1,0 +1,75 @@
+/*
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+/* Header */
+
+	#header {
+		width: 20em;
+	}
+
+/* Wrapper */
+
+	#wrapper {
+		padding-right: 20em;
+	}
+/* Layers */
+
+	#largeBar {
+		background: #222;
+		color: #fff;
+		min-width: 320px;
+	}
+
+		#largeBar .title {
+			color: #fff;
+			display: block;
+			font-weight: 700;
+			height: 44px;
+			line-height: 44px;
+			padding: 0 1em;
+			width: 100%;
+			text-align: left;
+		}
+/*
+		#largeBar .toggle {
+			text-decoration: none;
+			height: 4em;
+			position: absolute;
+			top: 0;
+			width: 6em;
+			right: 0;
+		}
+
+			#largeBar .toggle:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
+			}
+
+			#largeBar .toggle:before {
+				background: #4acaa8;
+				color: #ffffff;
+				content: '\f0c9';
+				display: block;
+				font-size: 18px;
+				height: 44px;
+				line-height: 44px;
+				position: absolute;
+				text-align: center;
+				top: 0;
+				width: 64px;
+				right: 0;
+			}
+			*/

@@ -1,0 +1,108 @@
+﻿<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Crime Map</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=geometry&sensor=false&language=en"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>       
+		<script src="js/crimeroute.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+
+			<!-- Header -->
+				<section id="header" class="skel-layers-fixed">
+					<header>
+						<!--
+						<span class="image avatar"><img src="images/hex.jpg" alt="" /></span>
+						-->
+						<h1 id="logo"><a href="#">Crime Map</a></h1>
+						<p>Walk home safely</p>
+					</header>
+					<nav id="nav">
+						<ul>
+							<li><a href="#one" class="active">Map</a></li>
+							<li><a href="#two">About</a></li>
+							<li><a href="#three">How It Works</a></li>
+						</ul>
+					</nav>
+					<footer>
+						<!--
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+					-->
+					</footer>
+				</section>
+
+			<!-- Main -->
+				<div id="main">
+
+					<!-- One -->
+						<section id="one">
+							<div id="panel">
+								Origin: <input id="start_address" type="textbox" value="Cooper Union, NY">
+								Destination: <input id="stop_address" type="textbox" value="Corona Park, NY">
+								Radius(m): <input id="search_radius" type="number" value=100>
+      							<input type="button" value="Route" onclick="calcRoute()">
+      						</div>
+      						<div id="googleMap" style="width:100%;height:800px;"></div>
+						</section>
+
+						<section id="two">
+							<div class="container">
+								<header class="major">
+									<h2>Crime Map</h2>
+									<p>Just a safer way around the city.</p>
+								</header>
+								<p>Since the early 2000s, the NYPD has been aggregating crime report data across all of New York City. By leveraging this information, we aim to utilize the google maps API to help create safer routes through the city.</p>
+							</div>
+						</section>
+						
+						<section id="three">
+							<div class="container">
+								<header class="major">
+									<h2>How It Works</h2>
+									<p>write stuff here</p>
+								</header>
+							</div>
+						</section>
+
+				</div>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<ul class="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</section>
+
+		</div>
+	</body>
+</html>
