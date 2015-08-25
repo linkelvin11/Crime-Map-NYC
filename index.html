@@ -87,8 +87,11 @@
 							<div class="container">
 								<header class="major">
 									<h2>How It Works</h2>
-									<p>write stuff here</p>
 								</header>
+								<h3>Data Manipulation</h3>
+								<p>The NYPD Crime Map dataset was filtered to only include violent crimes. Once the data was filtered, a cost function was applied based on the severity of each crime. Using the cost function in conjunction with the filtered data a heatmap was generated to display the violent crime density throughout the five boroughs.</p>
+								<h3>Route Selection</h3>
+								<p>From the Google Maps API, 3 routes can be generated between the origin and destination. The route data is formatted as a list of line segments representing each straight portion of the route. These segments are linearly interpolated to generate a dense sampling of latlngs between the origin and destination. A local radius search at each point allows us to rate routes based on their crime density.</p>
 							</div>
 						</section>
 
