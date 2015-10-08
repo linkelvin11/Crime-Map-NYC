@@ -7,6 +7,7 @@ var maxmag = 5;
 
 function initialize()
 {
+	alert("We have not tested this product in any way. We are not responsible for any shenanigans you may encounter while using this product.");
 	geocoder = new google.maps.Geocoder();
 
 	var mapOpt = {
